@@ -1,3 +1,23 @@
+ int f1 = 0, f2 = 1, f3, n, co;
+ n = int.Parse(TextBox1.Text);
+ co = 3;
+
+ Response.Write("Fibonacci Series:");
+ Response.Write(f1+"\t"+f2);
+ while (co <= n) {
+     f3 = f1 + f2;
+     Response.Write("\t" + f3);
+     f1 = f2;
+     f2 = f3;
+     co++;
+
+
+
+
+
+
+
+
 #commands (Camera)
 sudo apt-get install python-picamera
 sudo apt-get install python3-picamera
